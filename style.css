@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+*{box-sizing:border-box;font-family:'Google Sans',Arial,sans-serif}
+body{margin:0;background:#f5f8fc;color:#122d55;display:flex}
+.sidebar{width:260px;background:white;height:100vh;padding:25px;border-right:1px solid #e5e7eb}
+.sidebar a{display:block;padding:14px;margin:8px 0;border-radius:12px;color:#52627a}
+.sidebar .active{background:#e6f0ff;color:#0068d9}
+main{flex:1;padding:25px}
+header{display:flex;justify-content:space-between;align-items:center}
+input{width:55%;padding:15px;border:1px solid #ddd;border-radius:12px}
+.profile{background:white;padding:12px 20px;border-radius:15px;display:flex;gap:12px;align-items:center}
+.profile img{width:45px;height:45px;border-radius:50%}
+.card{background:white;border-radius:18px;padding:22px;margin:18px 0;box-shadow:0 5px 20px #0001}
+.hero{display:flex;gap:40px}
+.bigavatar{width:90px;border-radius:50%}
+.summary{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;flex:1}
+.summary div{background:#f8fbff;padding:18px;border-radius:12px}
+.summary strong,.summary small{display:block;margin-top:8px}
+.approved{background:#d8f7df;color:#178347;padding:7px 15px;border-radius:20px}
+.metrics{display:flex;gap:15px}
+.metrics div{background:white;padding:20px;border-radius:15px;flex:1}
+.job{border-left:5px solid #0875d1}
+button{background:#0768d7;color:white;border:0;padding:10px 16px;border-radius:10px}
+.completed{background:#edf0f4;color:#8b95a7}
